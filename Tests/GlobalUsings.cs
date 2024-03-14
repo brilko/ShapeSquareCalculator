@@ -1,3 +1,3 @@
 global using Xunit;
-global using ShapeSquare;
+global using ShapeArea;
 global using System.ComponentModel.DataAnnotations;

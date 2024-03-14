@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeSquareCalculator", "ShapeSquareCalculator\ShapeSquareCalculator.csproj", "{A3A9720B-4E87-41BF-880E-5B642B51782D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeSquare", "ShapeSquare\ShapeSquare.csproj", "{5CBFE7A6-7790-4E3A-9CEE-EDCAD4716283}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeArea", "ShapeArea\ShapeArea.csproj", "{5CBFE7A6-7790-4E3A-9CEE-EDCAD4716283}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{F4508827-7561-4998-9EB1-38BCEDF8A845}"
 EndProject
