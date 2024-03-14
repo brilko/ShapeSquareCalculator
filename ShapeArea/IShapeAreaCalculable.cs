@@ -1,6 +1,6 @@
 ﻿namespace ShapeArea
 {
-    public interface IShapeAreaCalaculable
+    public interface IShapeAreaCalculable
     {
         double CalculateArea();
     }

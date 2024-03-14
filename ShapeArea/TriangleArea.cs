@@ -1,6 +1,6 @@
 ﻿namespace ShapeArea
 {
-    public class TriangleArea : IShapeAreaCalaculable, IIsRightTriangle
+    public class TriangleArea : IShapeAreaCalculable, IIsRightTriangle
     {
         public TriangleArea(double sideA, double sideB, double sideC) 
         {

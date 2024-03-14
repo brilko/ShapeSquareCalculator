@@ -2,7 +2,7 @@
 
 namespace ShapeArea
 {
-    public class RoundArea : IShapeAreaCalaculable
+    public class RoundArea : IShapeAreaCalculable
     {
         public RoundArea(double radius) 
         {
