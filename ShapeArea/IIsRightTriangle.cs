@@ -2,6 +2,6 @@
 {
     public interface IIsRightTriangle
     {
-        public bool IsRightTriangle { get; }
+        public bool IsRight(double tolerance = 0);
     }
 }

@@ -27,8 +27,4 @@
     <ProjectReference Include="..\ShapeArea\ShapeArea.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="RectangleArea_Tests\" />
-  </ItemGroup>
-
 </Project>

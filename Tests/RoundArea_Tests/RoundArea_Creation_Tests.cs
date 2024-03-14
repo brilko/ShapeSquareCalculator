@@ -9,16 +9,16 @@ namespace Tests.RoundSquare_Tests
         [InlineData(-1)]
         [InlineData(-2)]
         [InlineData(-1.5)]
-        public void RoundSquare_CalculateSquare_TryConstructingWithNonPositiveRadius_ReturnValidationEror(double radius)
+        public void RoundArea_Creation_NonPositiveRadius_ReturnValidationEror(double radius)
         {
-            Assert.Throws<ValidationException>(() => new RoundArea(radius));
+            Assert.Throws<ArgumentException>(() => new RoundArea(radius));
         }
 
         [Theory]
         [InlineData(1)]
         [InlineData(2)]
         [InlineData(2.5)]
-        public void RoundSquare_CalculateSquare_ConstructingWithPositiveRadius_ReturnRoundWithCorrectRadius(
+        public void RoundArea_Creation_PositiveRadius_ReturnRoundWithCorrectRadius(
             double radius)
         {
             //Arrange
